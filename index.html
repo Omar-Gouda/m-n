@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#211716">
   <title>Mahmoud &amp; Nada | Save the Date</title>
+  <meta name="description" content="Celebrate the engagement of Mahmoud &amp; Nada on Saturday, 12 December 2026. Save the date and find the venue details.">
+  <!-- Replace YOUR-DOMAIN.com with the real deployed domain. The image must be publicly accessible. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mahmoud &amp; Nada | Save the Date">
+  <meta property="og:title" content="Mahmoud &amp; Nada | Save the Date">
+  <meta property="og:description" content="With full hearts, we invite you to celebrate our engagement on 12 December 2026.">
+  <meta property="og:image" content="https://m-n-six.vercel.app/engagement-invitation-cover.jpeg">
+  <meta property="og:image:secure_url" content="https://m-n-six.vercel.app/engagement-invitation-cover.jpeg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Illustrated floral engagement invitation for Mahmoud and Nada">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mahmoud &amp; Nada | Save the Date">
+  <meta name="twitter:description" content="Celebrate our engagement on Saturday, 12 December 2026.">
+  <meta name="twitter:image" content="https://m-n-six.vercel.app/engagement-invitation-cover.jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -54,6 +68,14 @@
     .detail-value{font:1.7rem/1.2 "Cormorant Garamond",serif;margin-top:12px}
     .detail-sub{font-size:.75rem;color:var(--muted);margin-top:9px;line-height:1.6}
     .countdown{display:flex;justify-content:center;gap:clamp(18px,5vw,56px);margin:42px auto 0}
+
+    /* Venue details and actions; existing layout and styles remain unchanged. */
+    .venue-info{position:relative;z-index:1;margin:44px auto 0;max-width:760px;padding-top:8px}
+    .venue-title{font:clamp(1.9rem,4vw,2.7rem)/1.1 "Cormorant Garamond",serif;font-weight:400;color:var(--wine);margin:12px 0 8px}
+    .venue-address{max-width:620px;margin:0 auto;color:var(--muted);font-size:.85rem;line-height:1.9}
+    .venue-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin:24px auto 0}
+    .venue-actions .button{color:var(--wine);border-color:var(--gold)}
+    .venue-actions .button:hover{background:var(--gold);color:#241918}
     .count-number{font:clamp(2.7rem,7vw,4.4rem)/1 "Cormorant Garamond",serif;color:#a87961}
     .count-label{font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:10px}
     .message-section{background:linear-gradient(135deg,#211817,#3a2424 65%,#281b1b);color:var(--cream);position:relative;overflow:hidden}
@@ -140,6 +162,16 @@
           <article class="detail-card"><div class="detail-icon">✧</div><div class="detail-label">The date</div><div class="detail-value">Saturday<br>12 December 2026</div><div class="detail-sub">Save this beautiful day</div></article>
           <article class="detail-card"><div class="detail-icon">◷</div><div class="detail-label">The time</div><div class="detail-value">7:00 PM – 11:00 PM</div><div class="detail-sub">Please arrive a little early</div></article>
           <article class="detail-card"><div class="detail-icon">♡</div><div class="detail-label">The occasion</div><div class="detail-value">Our Engagement</div><div class="detail-sub">The beginning of forever</div></article>
+        </div>
+
+        <div class="venue-info" aria-labelledby="venue-title">
+          <div class="detail-icon" aria-hidden="true">⌖</div>
+          <div class="detail-label">The venue</div>
+          <h3 class="venue-title" id="venue-title">Dar Al Mohandeseen Club</h3>
+          <div class="venue-actions">
+            <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Dar%20Al%20Mohandeseen%20Club%2C%20V77R%2BQM%2C%20Helwan%20El%20Balad%2C%20El%20Maasara%2C%20Cairo%20Governorate%204040001" target="_blank" rel="noopener noreferrer">How can you get there? <span aria-hidden="true">↗</span></a>
+            <a class="button" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Mahmoud%20%26%20Nada%20Engagement&amp;dates=20261212T190000%2F20261212T230000&amp;ctz=Africa%2FCairo&amp;details=Celebrate%20the%20engagement%20of%20Mahmoud%20%26%20Nada.&amp;location=Dar%20Al%20Mohandeseen%20Club%2C%20V77R%2BQM%2C%20Helwan%20El%20Balad%2C%20El%20Maasara%2C%20Cairo%20Governorate%204040001" target="_blank" rel="noopener noreferrer">Make sure to remember it <span aria-hidden="true">♡</span></a>
+          </div>
         </div>
       </div>
     </section>
